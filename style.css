@@ -1,0 +1,40 @@
+body {
+  background-color: #707070;
+}
+
+#home {
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)), url("img/background.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 10rem 1rem;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(80,0,0);
+}
+.picture {
+  background: #f3f3f3;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  box-shadow: 0 0 2px 2px #b3b3b3;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0 auto 1rem auto;
+}
+.headshot {
+  width: 100%;
+  height: auto;
+}
+
+.section {
+  display: flex;
+  gap: 20px;
+  padding: 2rem;
+}
+.section > div {
+  flex: 1;
+  background: #f0f0f0;
+  text-align: center;
+  padding: 2rem;
+}
